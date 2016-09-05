@@ -21,8 +21,6 @@
   "author": "Rick Hernandez",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.0.2",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typings": "^1.3.3",
