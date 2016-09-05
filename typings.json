@@ -1,0 +1,20 @@
+{
+  "resolution": {
+    "main": "typings/"
+  },
+  "globalDependencies": {
+    "app-root-path": "registry:dt/app-root-path#1.2.1+20160719232327",
+    "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
+    "chai": "registry:dt/chai#3.4.0+20160601211834",
+    "cookie-parser": "registry:dt/cookie-parser#1.3.4+20160316155526",
+    "core-js": "registry:dt/core-js#0.0.0+20160725163759",
+    "debug": "registry:dt/debug#0.0.0+20160317120654",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160829034835",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mocha": "registry:dt/mocha#2.2.5+20160720003353",
+    "morgan": "registry:dt/morgan#1.7.0+20160524142355",
+    "node": "registry:dt/node#6.0.0+20160830141956",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  }
+}

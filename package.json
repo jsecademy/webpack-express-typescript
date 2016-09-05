@@ -1,0 +1,43 @@
+{
+  "name": "webpack-express-typescript",
+  "version": "1.0.0",
+  "description": "Easy starter project for writing modern Express Applications using TypeScript, and Webpack",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.js",
+    "postinstall": "node node_modules/typings/dist/bin.js install --overwrite",
+    "start": "DEBUG=modern-express:* node build/compiled"
+  },
+  "main": "",
+  "keywords": [
+    "Easy",
+    "TypeScript",
+    "Starter",
+    "Template"
+  ],
+  "author": "Rick Hernandez",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3",
+    "webpack": "^1.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "app-root-path": "^1.3.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

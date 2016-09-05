@@ -1,0 +1,6 @@
+.vscode/
+build/
+typings/
+node_modules/
+.DS*
+._.*
