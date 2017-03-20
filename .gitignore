@@ -4,5 +4,5 @@ typings/
 node_modules/
 .DS*
 ._.*
-.idea
+.idea/
 yarn.lock
