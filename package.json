@@ -9,7 +9,7 @@
   "scripts": {
     "build": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.js",
     "postinstall": "node node_modules/typings/dist/bin.js install --overwrite",
-    "start": "DEBUG=modern-express:* node build/compiled"
+    "start": "node build/compiled"
   },
   "main": "",
   "keywords": [
