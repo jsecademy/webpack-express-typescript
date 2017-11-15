@@ -12,17 +12,26 @@ module.exports = {
     },
     resolve: {
         // Add in `.ts` and `.tsx` as a resolvable extension.
-        extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js'],
+        extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js'],
+        modules: [
+            `${root}/node_modules`,
+            'node_modules'
+        ]
     },
     resolveLoader: {
-        root: [`${root}/node_modules`]
+        //root: [`${root}/node_modules`],
+
+
     },
     module: {
-        loaders: [{
+        rules: [{
             // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
             test: /\.tsx?$/,
-            exclude: 'node_modules',
-            loader: 'ts-loader'
+            use: [
+                {
+                    loader: 'ts-loader',
+                }
+            ]
         }]
     }
 };
